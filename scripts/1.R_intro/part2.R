@@ -30,6 +30,8 @@ cat("The cat is on the table", file = "Cat.txt")
 # please write the code immediately down here (in the empty space) 
 # save the file, and then push to the GitHub repo 
 
+my_text <- readLines("samples/Doyle_Study_1887.txt")
+strsplit(my_text, " ")
 
 
 ### Your Turn (1) - end
