@@ -53,7 +53,10 @@ my_authors <- read.csv("samples/Authors.csv", row.names = 1)
 
 # read the other .csv file in the "samples" folder and find the Italian author(s) 
 # please write the code immediately down here (in the empty space) 
-# save the file, and then push to the GitHub repo 
+# save the file, and then push to the GitHub repo
+
+my_authors <- read.csv("samples/other_authors.csv")
+View(my_authors)
 
 
 
